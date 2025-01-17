@@ -1,0 +1,20 @@
+body { margin: 0; overflow: hidden; }
+#button-container {
+    position: absolute;
+    top: 20px; /* Ajuste a margem superior */
+    left: 50%;
+    transform: translateX(-50%); /* centraliza horizontalmente */
+    z-index: 1; /* Garante que o botão fique acima do renderizador */
+}
+#roll-button {
+   padding: 10px 20px;
+   font-size: 16px;
+   cursor: pointer;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   border-radius: 5px;
+}
+ #roll-button:hover {
+    background-color: #45a049;
+ }
