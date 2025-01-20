@@ -19,12 +19,12 @@ controls.update();
 // 4. Texturas
 const textureLoader = new THREE.TextureLoader();
 const textures = [
-    textureLoader.load('./images/face1.png'),
-    textureLoader.load('./images/face2.png'),
-    textureLoader.load('./images/face3.png'),
-    textureLoader.load('./images/face4.png'),
-    textureLoader.load('./images/face5.png'),
-    textureLoader.load('./images/face6.png')
+    textureLoader.load('/images/face1.png'),
+    textureLoader.load('/images/face2.png'),
+    textureLoader.load('/images/face3.png'),
+    textureLoader.load('/images/face4.png'),
+    textureLoader.load('/images/face5.png'),
+    textureLoader.load('/images/face6.png')
 ];
 
 // 5. Geometria e Material do Dado
